@@ -4,6 +4,7 @@
 NOTE- If there is any confusion 
 I would love to assist you guys, please reach me at 
 email: nikhilanand020@gmail.com
+or call or whatsapp me directly 
 phone: +91 8287916141
 
 
