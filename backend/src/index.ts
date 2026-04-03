@@ -18,10 +18,8 @@ const app = express();
 const prisma = new PrismaClient({ adapter });
 const PORT = process.env.PORT || 4000;
 
-const frontendUrl = process.env.FRONTEND_URL ? process.env.FRONTEND_URL.replace(/\/$/, '') : 'http://localhost:3000';
-
 app.use(cors({
-  origin: frontendUrl,
+  origin: true, // Dynamically reflects the exact request origin to ensure no slash typos cause issues
   credentials: true
 }));
 app.use(express.json());
